@@ -1,0 +1,91 @@
+https://dev2fe.tradeindia.com/ :	200
+https://dev2fe.tradeindia.com/seller/ :	200
+https://dev2fe.tradeindia.com/seller/agriculture/ :	200
+https://dev2fe.tradeindia.com/seller/agriculture/rice/ :	200
+https://dev2fe.tradeindia.com/services/ :	200
+https://dev2fe.tradeindia.com/services/advertising/ :	Exceeded 30 redirects.
+200
+https://dev2fe.tradeindia.com/services/advertising/brochure-advertising-services/ :	Exceeded 30 redirects.
+200
+https://dev2fe.tradeindia.com/manufacturers/ :	200
+https://dev2fe.tradeindia.com/manufacturers/sella-basmati-rice.html :	200
+https://dev2fe.tradeindia.com/business-services/ :	HTTPSConnectionPool(host='dev2fe.tradeindia.com,%20qa1.tradeindia.com', port=443): Max retries exceeded with url: /business-services/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7efc33c5b5b0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+200
+https://dev2fe.tradeindia.com/business-services/digital-brochure-advertising.html :	200
+https://dev2fe.tradeindia.com/delhi/sella-basmati-rice-city-228067.html :	200
+https://dev2fe.tradeindia.com/delhi/sella-basmati-rice-in-rohini.html :	200
+https://dev2fe.tradeindia.com/products/ :	200
+https://dev2fe.tradeindia.com/products/long-grain-basmati-rice-c6453433.html :	200
+https://dev2fe.tradeindia.com/products/agriculture-black-mulching-film-7093444.html :	200
+https://dev2fe.tradeindia.com/gananathan-traders-27479462/ :	200
+https://dev2fe.tradeindia.com/canwin-imports-exports-34250712/ :	200
+https://dev2fe.tradeindia.com/rajesh-eneterprise-18708017/ :	200
+https://dev2fe.tradeindia.com/country-suppliers/ :	200
+https://dev2fe.tradeindia.com/jp/ :	200
+https://dev2fe.tradeindia.com/jp/hospital-medical-supplies/ :	200
+https://dev2fe.tradeindia.com/jp/hospital-medical-supplies/medical-equipment/ :	200
+https://dev2fe.tradeindia.com/jp/vessel-sealing-system.html :	200
+https://dev2fe.tradeindia.com/industry-hubs/ :	404
+https://dev2fe.tradeindia.com/industry-hubs/andhra-pradesh.html :	200
+https://dev2fe.tradeindia.com/industry-hubs/andhra-pradesh/guntur.html :	404
+https://dev2fe.tradeindia.com/my-tradeindia/ :	200
+https://dev2fe.tradeindia.com/login/login.html :	200
+https://dev2fe.tradeindia.com/join_now/verification.html :	200
+https://dev2fe.tradeindia.com/tradekhata/ :	200
+https://dev2fe.tradeindia.com/about-us/ :	200
+https://dev2fe.tradeindia.com/TradeLeads/ :	404
+https://dev2fe.tradeindia.com/Buyer/ :	404
+https://dev2fe.tradeindia.com/sitemap.html :	404
+https://dev2fe.tradeindia.com/search.html?search_return_url=%2F&search_form_id=18&keyword=human+hair :	200
+https://dev2fe.tradeindia.com/tradeshows/ :	200
+https://dev2fe.tradeindia.com/tradeshows/all-categories.html :	200
+https://dev2fe.tradeindia.com/tradeshows/agriculture/ :	200
+https://dev2fe.tradeindia.com/tradeshows/agriculture/city/mumbai/207486/ :	200
+https://dev2fe.tradeindia.com/tradeshows/agriculture/year-2022/november/ :	200
+https://dev2fe.tradeindia.com/tradeshows/all-cities.html :	200
+https://dev2fe.tradeindia.com/tradeshows/city/mumbai/207486/ :	200
+https://dev2fe.tradeindia.com/tradeshows/city/mumbai/207486/year-2022/november/ :	200
+https://dev2fe.tradeindia.com/tradeshows/all-countries.html :	200
+https://dev2fe.tradeindia.com/tradeshows/country/india/ :	200
+https://dev2fe.tradeindia.com/tradeshows/country/india/city/mumbai/207486/ :	200
+https://dev2fe.tradeindia.com/tradeshows/country/india/year-2022/november :	200
+https://dev2fe.tradeindia.com/tradeshows/112131/auto-expo-components-2023.html :	200
+https://dev2fe.tradeindia.com/tradeshows/virtual-events/ :	200
+https://dev2fe.tradeindia.com/tradeshows/year-2022/november/ :	200
+https://dev2fe.tradeindia.com/tradeshows/organisers-listing.html :	200
+https://dev2fe.tradeindia.com/tradeshows/organizer-11377129/media-day-marketing.html :	200
+https://dev2fe.tradeindia.com/tradeshows/venue-listing.html :	200
+https://dev2fe.tradeindia.com/tradeshows/venue/biec-bengaluru/6444/ :	200
+https://dev2fe.tradeindia.com/tradeshows/tradeindia-participated-trade-shows.html :	200
+https://dev2fe.tradeindia.com/tradeshows/fairs/indiawood_2020.html :	200
+https://dev2fe.tradeindia.com/tradeshows/tradeindia-will-participate-trade-shows.html :	200
+https://dev2fe.tradeindia.com/tradeshows/109190/pacprocess-food-pex-mumbai-2022.html :	200
+https://dev2fe.tradeindia.com/tradeshows/advertise.html :	200
+https://dev2fe.tradeindia.com/tradeshows/trade_show_form.html :	200
+https://dev2fe.tradeindia.com/blog/ :	404
+https://dev2fe.tradeindia.com/design2017/sourcing/sourcing_requirements.html :	404
+https://dev2fe.tradeindia.com/TradeLeads/buy/Packaging-Paper/Adhesive-Tapes/ :	404
+https://dev2fe.tradeindia.com/communities/6/3129/Payment-Modes-Finance-Issues/Cash-Against-Delivery-CAD-the-pros-cons.html :	404
+https://dev2fe.tradeindia.com/survey/109/index.html :	404
+https://dev2fe.tradeindia.com/ti_forms/rfq/rfq_action.html :	404
+https://dev2fe.tradeindia.com/tradeindia-news.html :	200
+https://careers.tradeindia.com/ :	200
+https://dev2fe.tradeindia.com/about-us/contact-us/ :	200
+https://dev2fe.tradeindia.com/about-us/partner-with-us.html :	200
+https://pay.tradeindia.com/ :	502
+https://dev2fe.tradeindia.com/return-cancellation-policy.html :	200
+https://dev2fe.tradeindia.com/shipping-and-delivery-policy.html :	200
+https://dev2fe.tradeindia.com/about-us/product-and-services/product-and-services.html :	200
+https://dev2fe.domainjerry.com/ :	HTTPSConnectionPool(host='dev2fe.domainjerry.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7efc33c5beb0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+200
+https://dev2fe.tradeindia.com/newsletters/newsletter_archives.html :	200
+https://dev2fe.tradeindia.com/about-us/order/credit-report.html :	200
+https://dev2fe.tradeindia.com/rewards.html :	200
+https://dev2fe.tradeindia.com/ti-pay/ :	404
+https://dev2fe.tradeindia.com/download-getbizonline.html :	404
+https://dev2fe.tradeindia.com/ti_logistics/ :	404
+https://dev2fe.tradeindia.com/vcard/ :	200
+https://dev2fe.tradeindia.com/join_now/subscribe_to_trade_alerts.html?type=Sell :	200
+https://dev2fe.tradeindia.com/join_now/upload_product.html :	200
+https://dev2fe.tradeindia.com/about-us/terms/terms_01.html :	200
+https://dev2fe.tradeindia.com/ti-lending/ :	200

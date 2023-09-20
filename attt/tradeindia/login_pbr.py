@@ -1,0 +1,57 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+from selenium.webdriver.common.keys import Keys
+#from selenium.webdriver.common.action_chains import ActionChains
+
+
+usernameStr = 'hasan.fauwad@tradeindia.com'
+passwordStr = 'trade12india'
+browser = webdriver.Chrome(executable_path="/home/user01/Downloads/chromedriver.exe")
+browser.maximize_window()
+#browser.implicitly_wait(8)
+browser.get(('https://www.tradeindia.com/login/login.html'))
+time.sleep(1)
+browser.find_element(By.XPATH, "//p[@class='mt-3 text-center loginWithText']").click()
+username=browser.find_element(By.NAME,"email")
+username.send_keys(usernameStr)
+browser.find_element(By.XPATH,"//button[@type='submit']").click()
+time.sleep(1)
+password=browser.find_element(By.NAME,"otp")
+password.send_keys(passwordStr)
+browser.find_element(By.XPATH,"//button[@type='submit']").click()
+time.sleep(2)
+Pbr = browser.execute_script("return document.body.scrollHeight")
+#print(Pbr)
+for scroll in range(0,500,10):
+    browser.execute_script(f"window,scrollTo(0,{scroll})")
+y = browser.execute_script("window,scrollTo(0,1800)")
+time.sleep(2)
+browser.find_element(By.ID,"product_name").send_keys('basmati rice')
+time.sleep(2)
+browser.find_element(By.XPATH,"//li[text()='pusa basmati rice']").click()
+time.sleep(2)
+browser.find_element(By.XPATH,"//span[text()='Choose a related product ']").click()
+time.sleep(2)
+browser.find_element(By.XPATH,"//li[text()='1121 pusa basmati rice']").click()
+time.sleep(2)
+browser.find_element(By.XPATH,"//button[@type='submit'][1]").click()
+time.sleep(2)
+browser.find_element(By.XPATH,'//input[@placeholder="Enter Quantity"]').send_keys(1200)
+time.sleep(2)
+browser.find_element(By.XPATH,'//div[@class="input-wrapper"][1]').click()
+time.sleep(2)
+browser.find_element(By.XPATH,'//li[text()="Kilogram"]').click()
+time.sleep(2)
+Pbr = browser.execute_script("return document.body.scrollHeight")
+#print(Pbr)
+y = browser.execute_script("window,scrollTo(0,1900)")
+browser.find_element(By.XPATH,'//input[@type="number"]').send_keys(12000)
+time.sleep(2)
+# browser.find_element(By.CSS_SELECTOR,"#__next > div > div > div > div > div > div.postHide.col-lg-6.order-md-last > div > div.FadeIn__Wrapper-sc-oelagd-0.gPuIMI > div > div > form > div.overflow > div:nth-child(2) > div > div.mb-3.mt-2 > div.SingleSelect__StyledSingleSelect-sc-1xzvvfr-0.hpQaHE > div > div > div").click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,"//li[text()='INR']").click()
+# time.sleep(5)
+#print('buttonnnnnnnnnnnn', 'dsdsdasdsad')
+browser.find_element(By.XPATH,"//button[@type='submit'][1]").click()
+time.sleep(10)

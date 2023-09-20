@@ -1,0 +1,67 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+from selenium.webdriver.common.keys import Keys
+#from selenium.webdriver.common.action_chains import ActionChains
+
+
+usernameStr = 'richabharti@tradeindia.com'
+passwordStr = 'Richa@1708'
+browser = webdriver.Chrome(executable_path="/home/user01/Downloads/chromedriver.exe")
+browser.maximize_window()
+#browser.implicitly_wait(8)
+browser.get(('https://www.tradeindia.com/login/login.html'))
+time.sleep(1)
+browser.find_element(By.XPATH, "//p[@class='mt-3 text-center loginWithText']").click()
+username=browser.find_element(By.NAME,"email")
+username.send_keys(usernameStr)
+browser.find_element(By.XPATH,"//button[@type='submit']").click()
+time.sleep(1)
+password=browser.find_element(By.NAME,"otp")
+password.send_keys(passwordStr)
+browser.find_element(By.XPATH,"//button[@type='submit']").click()
+time.sleep(2)
+browser.execute_script("return document.body.scrollHeight")
+for scroll in range(0,500,10):
+    browser.execute_script(f"window,scrollTo(0,{scroll})")
+time.sleep(2)
+browser.find_element(By.XPATH,'//*[@id="__next"]/div/div/main/div/div[1]/div[1]/div[2]/span/div/a/span').click()
+time.sleep(2)
+# browser.find_element(By.XPATH,"//p[text()='Agriculture']").click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,'/html/body/div[1]/div/div/main/div/div[1]/div/div[2]/div/div/div/div/div[3]/div[3]/div[2]/button[2]/span').click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,'/html/body/div[1]/div/div/main/div/div[3]/div/div[1]/div/div/form/div[3]/button').click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,'/html/body/div[1]/div/div/main/div/div[3]/div/div[1]/button/svg/line[1]').click()
+# time.sleep(2)
+# for scroll in range(0,1000,10):
+#     browser.execute_script(f"window,scrollTo(0,{scroll})")
+# time.sleep(2)
+# browser.find_element(By.XPATH,'//h3[text()="Rice"]').click()
+# time.sleep(2)
+# for scroll in range(0,2000,10):
+#     browser.execute_script(f"window,scrollTo(0,{scroll})")
+# time.sleep(2)
+# browser.find_element(By.XPATH,'/html/body/div[1]/div/div/main/div/div[1]/div[1]/div[9]/div[1]/div/div/div[2]/div[2]/button[1]/span').click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,'/html/body/div[1]/div/div/main/div/div[7]/div/div[1]/div/div/form/div[3]/button').click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,'/html/body/div[1]/div/div/main/div/div[7]/div/div[1]/button/svg').click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,"//button[@type='submit']").click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,'//*[@id="__next"]/div/div/main/div/div[3]/div/div[1]/div/div/form/div[1]/div[1]/div/div/div[1]/input').send_keys(100)
+# time.sleep(2)
+# browser.find_element(By.XPATH,'//div[@class="input-wrapper"][1]').click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,'//li[text()="Units"]').click()
+# time.sleep(2)
+# browser.find_element(By.XPATH,'//input[@type="number"]').send_keys(10000)
+# time.sleep(1)
+# browser.find_element(By.XPATH,'//*[@id="__next"]/div/div/main/div/div[3]/div/div[1]/div/div/form/div[2]/div/div[2]/span/div/div/div[1]/div/div').click()
+# time.sleep(1)
+# browser.find_element(By.XPATH,'//li[text()="INR"]').click()
+# time.sleep(1)
+# browser.find_element(By.XPATH,"//button[@type='submit'][1]").click()
+# time.sleep(5)
